@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import {drawerListNavigations} from "../../data/data";
+import { drawerListNavigations } from "../../data/data";
 
 const DrawerList = (props) => {
     const navigate = useNavigate();
@@ -7,27 +7,27 @@ const DrawerList = (props) => {
     const onPicked = (route) => {
         props.toggleDrawer(false)();
         navigate(route);
-    }
+    };
 
     return (
-        <div className="w-[250px] bg-orange-500 h-[100vh]">
-            {
-                drawerListNavigations.map(item => {
-                    return (
-                        <>
-                            <div className="h-[10vh] flex pl-[10px] items-center" 
+        <div className="w-[250px] h-[100vh] flex flex-col justify-center items-center p-4">
+            {drawerListNavigations.map((item, index) => {
+                return (
+                    <>
+                        <div
+                            className="h-[10vh] w-full flex items-center justify-center cursor-pointer underline hover:bg-indigo-600 hover:text-white rounded-lg p-2"
                             onClick={() => {
                                 onPicked(item.route);
-                            }}>
-                                {item.title}
-                            </div>
-                            <div className="bg-black w-[100%] h-[1px]" />
-                        </>
-                    );
-                })
-            }
+                            }}
+                            key={index}
+                        >
+                            {item.title}
+                        </div>
+                    </>
+                );
+            })}
         </div>
     );
-}
+};
 
 export default DrawerList;

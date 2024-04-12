@@ -1,14 +1,18 @@
 export const drawerListNavigations = [
     {
-        title: "about",
+        title: "Home",
         route: "/"
     },
     {
-        title: "navigate",
+        title: "Navigate",
         route: "/navigate"
     },
     {
-        title: "contacts",
+        title: "Team",
+        route: "/team"
+    },
+    {
+        title: "Contact Us",
         route: "/contacts"
     },
 ];

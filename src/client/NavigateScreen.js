@@ -1,8 +1,4 @@
 const NavigateScreen = () => {
-    return (
-        <div>
-            navigate
-        </div>
-    );
-}
+    return <div>Navigation will be integrated here soon...</div>;
+};
 export default NavigateScreen;
