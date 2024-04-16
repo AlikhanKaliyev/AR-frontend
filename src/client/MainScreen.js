@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Drawer from "@mui/material/Drawer";
 import DrawerList from "./components/DrawerList";
-import { Outlet } from "react-router";
+import {Outlet} from "react-router";
 import Footer from "./components/Footer";
 import BurgerMenuButton from "./components/BurgerMenuButton";
 import TitleText from "./components/TitleText";
@@ -15,16 +15,16 @@ const MainScreen = () => {
 
     return (
         <div className="w-[100%] bg-white relative">
-            <div className="h-[10%] flex fixed w-[100%] bg-black text-white">
-                <BurgerMenuButton toggleDrawer={toggleDrawer} />
-                <TitleText />
+            <div className="h-[10%] flex fixed w-[100%] bg-black text-white z-50">
+                <BurgerMenuButton toggleDrawer={toggleDrawer}/>
+                <TitleText/>
             </div>
             <Drawer open={open} onClose={toggleDrawer(false)}>
-                <DrawerList toggleDrawer={toggleDrawer} />
+                <DrawerList toggleDrawer={toggleDrawer}/>
             </Drawer>
             <div className="pt-[10vh] bg-inherit min-h-screen flex flex-col justify-between">
-                <Outlet />
-                <Footer />
+                <Outlet/>
+                <Footer/>
             </div>
         </div>
     );

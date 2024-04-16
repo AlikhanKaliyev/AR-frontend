@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Video from "../assets/intro_video.mp4";
 
 const HomeScreen = () => {
@@ -46,7 +46,7 @@ const HomeScreen = () => {
                     {/* Video */}
                     <div className="flex justify-center items-center">
                         <video className="w-full max-w-2xl h-auto" controls>
-                            <source src={Video} type="video/mp4" />
+                            <source src={Video} type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -63,7 +63,8 @@ const HomeScreen = () => {
                                 </p>
                             </div>
 
-                            <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                            <div
+                                className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                                 {/* 1st item */}
                                 <div className="flex flex-col items-center p-6 bg-white rounded shadow-xl">
                                     <svg
@@ -225,12 +226,12 @@ const HomeScreen = () => {
                                         r="96.031%"
                                         id="ni-a"
                                     >
-                                        <stop stopColor="#DFDFDF" offset="0%" />
+                                        <stop stopColor="#DFDFDF" offset="0%"/>
                                         <stop
                                             stopColor="#4C4C4C"
                                             offset="44.317%"
                                         />
-                                        <stop stopColor="#333" offset="100%" />
+                                        <stop stopColor="#333" offset="100%"/>
                                     </radialGradient>
                                 </defs>
                                 <g fill="none" fillRule="evenodd">
