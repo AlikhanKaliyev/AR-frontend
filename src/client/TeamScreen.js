@@ -1,7 +1,7 @@
-import TeamAvatar1 from "../assets/man.png";
-import TeamAvatar2 from "../assets/hacker.png";
-import TeamAvatar3 from "../assets/boy.png";
-import TeamAvatar4 from "../assets/gamer.png";
+import TeamAvatar1 from "../assets/murager.jpg";
+import TeamAvatar2 from "../assets/temirlan.jpg";
+import TeamAvatar3 from "../assets/alikhan.jpg";
+import TeamAvatar4 from "../assets/azimbek.jpg";
 
 const TeamScreen = () => {
     return (
@@ -28,14 +28,13 @@ const TeamScreen = () => {
 
                         <div className="p-5">
                             <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                                Bonnie Green
+                                Userbay Murager
                             </h3>
                             <span className="text-gray-500">
-                                CEO & Web Developer
+                                Unity Developer
                             </span>
                             <p className="mt-3 mb-4 font-light text-gray-500">
-                                Bonnie drives the technical strategy of the
-                                flowbite platform and brand.
+                                Description
                             </p>
                             <ul className="flex space-x-4 sm:mt-0">
                                 <li>
@@ -111,14 +110,13 @@ const TeamScreen = () => {
 
                         <div className="p-5">
                             <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                                Bonnie Green
+                                Akhmetkan Temirlan
                             </h3>
                             <span className="text-gray-500">
-                                CEO & Web Developer
+                                3D Artist & Animator
                             </span>
                             <p className="mt-3 mb-4 font-light text-gray-500">
-                                Bonnie drives the technical strategy of the
-                                flowbite platform and brand.
+                                Description
                             </p>
                             <ul className="flex space-x-4 sm:mt-0">
                                 <li>
@@ -194,14 +192,13 @@ const TeamScreen = () => {
 
                         <div className="p-5">
                             <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                                Bonnie Green
+                                Kaliyev Alikhan
                             </h3>
                             <span className="text-gray-500">
-                                CEO & Web Developer
+                                Software engineer
                             </span>
                             <p className="mt-3 mb-4 font-light text-gray-500">
-                                Bonnie drives the technical strategy of the
-                                flowbite platform and brand.
+                                Description
                             </p>
                             <ul className="flex space-x-4 sm:mt-0">
                                 <li>
@@ -277,19 +274,16 @@ const TeamScreen = () => {
 
                         <div className="p-5">
                             <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                                Bonnie Green
+                                Abdipattayev Azimbek
                             </h3>
-                            <span className="text-gray-500">
-                                CEO & Web Developer
-                            </span>
+                            <span className="text-gray-500">Web Developer</span>
                             <p className="mt-3 mb-4 font-light text-gray-500">
-                                Bonnie drives the technical strategy of the
-                                flowbite platform and brand.
+                                Description
                             </p>
                             <ul className="flex space-x-4 sm:mt-0">
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com"
+                                        href="https://www.linkedin.com/in/therealazimbek"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="text-gray-500 hover:text-gray-900"
@@ -310,7 +304,7 @@ const TeamScreen = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.instagram.com"
+                                        href="https://www.instagram.com/abd1pattaev2002"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="text-gray-500 hover:text-gray-900"
@@ -327,7 +321,7 @@ const TeamScreen = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.github.com"
+                                        href="https://www.github.com/therealazimbek"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="text-gray-500 hover:text-gray-900"

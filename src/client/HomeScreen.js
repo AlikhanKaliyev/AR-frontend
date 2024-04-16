@@ -36,7 +36,7 @@ const HomeScreen = () => {
                                         className="btn text-white bg-indigo-600 p-4 rounded-xl hover:bg-indigo-800 w-full mb-4 sm:w-auto sm:mb-0"
                                         to="/navigate"
                                     >
-                                        Get started
+                                        Get the app
                                     </Link>
                                 </div>
                             </div>
@@ -101,11 +101,11 @@ const HomeScreen = () => {
                                         </g>
                                     </svg>
                                     <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                        Feature #1
+                                        Navigation
                                     </h4>
                                     <p className="text-gray-600 text-center">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
+                                        Indoor navigation using Augmented
+                                        Reality
                                     </p>
                                 </div>
 
@@ -146,11 +146,11 @@ const HomeScreen = () => {
                                         </g>
                                     </svg>
                                     <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                        Feature #2
+                                        Map
                                     </h4>
                                     <p className="text-gray-600 text-center">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
+                                        Complete map of the campus and list of
+                                        rooms
                                     </p>
                                 </div>
 
@@ -191,11 +191,10 @@ const HomeScreen = () => {
                                         </g>
                                     </svg>
                                     <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                        Feature #3
+                                        Community
                                     </h4>
                                     <p className="text-gray-600 text-center">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit.
+                                        Latest IT and KBTU news, memes and more
                                     </p>
                                 </div>
                             </div>
