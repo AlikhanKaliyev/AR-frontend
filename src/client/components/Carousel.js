@@ -1,11 +1,14 @@
-// Carousel.js
-
 import React, {useEffect, useState} from 'react';
+import CarouselImage1 from "../../assets/1.jpeg";
+import CarouselImage2 from "../../assets/2.jpeg";
+import CarouselImage3 from "../../assets/3.jpeg";
+import CarouselImage4 from "../../assets/4.jpeg";
 
 const images = [
-    'https://via.placeholder.com/600x400?text=Image+1',
-    'https://via.placeholder.com/600x400?text=Image+2',
-    'https://via.placeholder.com/600x400?text=Image+3',
+    CarouselImage1,
+    CarouselImage2,
+    CarouselImage3,
+    CarouselImage4
 ];
 
 const Carousel = () => {
